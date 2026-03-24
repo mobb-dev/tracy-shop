@@ -1,0 +1,44 @@
+.home {}
+
+.loading {
+  text-align: center;
+  padding: 80px;
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.featured {
+  background: #f3f3f3;
+  padding: 20px 0 40px;
+}
+
+.featuredInner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.sectionTitle {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #111;
+}
+
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 900px) {
+  .productGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .productGrid {
+    grid-template-columns: 1fr;
+  }
+}

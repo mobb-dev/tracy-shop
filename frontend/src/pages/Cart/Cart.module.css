@@ -1,0 +1,171 @@
+.page {
+  display: flex;
+  gap: 24px;
+  max-width: 1100px;
+  margin: 32px auto;
+  padding: 0 20px;
+  align-items: flex-start;
+}
+
+.items {
+  flex: 1;
+}
+
+.heading {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.item {
+  display: flex;
+  gap: 16px;
+  padding: 16px 0;
+  border-bottom: 1px solid #eee;
+  align-items: flex-start;
+}
+
+.itemImage {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #f9f9f9;
+}
+
+.itemInfo {
+  flex: 1;
+}
+
+.itemName {
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: #007185;
+  margin-bottom: 4px;
+}
+
+.itemName:hover {
+  text-decoration: underline;
+}
+
+.variant {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.itemActions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.itemActions select {
+  padding: 4px 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.removeBtn {
+  background: none;
+  border: none;
+  color: #cc0c39;
+  font-size: 0.85rem;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.itemPrice {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #111;
+  white-space: nowrap;
+}
+
+.summary {
+  width: 280px;
+  flex-shrink: 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.summaryTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.summaryRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+}
+
+.totalRow {
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.checkoutBtn {
+  background: #f90;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.2s;
+}
+
+.checkoutBtn:hover {
+  background: #e68a00;
+}
+
+.continueLink {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #007185;
+}
+
+.empty {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.empty h2 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.empty p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.shopLink {
+  background: #f90;
+  color: #111;
+  padding: 10px 24px;
+  border-radius: 4px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .page {
+    flex-direction: column;
+  }
+  .summary {
+    width: 100%;
+  }
+}

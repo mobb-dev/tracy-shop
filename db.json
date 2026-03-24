@@ -1,0 +1,292 @@
+{
+  "users": [
+    {
+      "_id": "edf5eeb5-81c9-4c08-97c3-f080a30bc637",
+      "email": "demo@tracyshop.dev",
+      "password": "$2a$10$cLhTGXfiGsThF7vIFVOwq.vqV9FGhIZVFs6pEOuQasethd1.IjVqO",
+      "profile": {
+        "firstName": "Demo",
+        "lastName": "User"
+      },
+      "addresses": [],
+      "orders": [
+        "606ff365-e304-4b35-93d4-1329c42b59dc"
+      ],
+      "createdAt": "2026-03-07T00:00:21.245Z",
+      "updatedAt": "2026-03-09T22:52:43.629Z"
+    }
+  ],
+  "categories": [
+    {
+      "_id": "4d8650f3-7a80-483a-a569-986492d0bff1",
+      "name": "Apparel",
+      "slug": "apparel",
+      "description": "Tracy branded clothing",
+      "image": "/catalog-man-hoodie.jpg"
+    },
+    {
+      "_id": "5ca8a3c3-ee78-4f11-9711-0dd7c7da3421",
+      "name": "Stickers",
+      "slug": "stickers",
+      "description": "Tracy sticker packs",
+      "image": "/catalog-sticker-mobb.jpg"
+    },
+    {
+      "_id": "4f30da54-e1e6-48bf-9b36-105e58be9833",
+      "name": "Accessories",
+      "slug": "accessories",
+      "description": "Tracy accessories",
+      "image": "/catalog-tracy-keycaps.jpg"
+    }
+  ],
+  "products": [
+    {
+      "_id": "d3cbe2e0-bf6b-41a2-af08-e5d36158117e",
+      "name": "Men's Tracy Hoodie",
+      "description": "Stay cozy and represent Tracy with this premium men's hoodie. Features the iconic Tracy logo on the chest.",
+      "price": 59.99,
+      "salePrice": 44.99,
+      "isOnSale": true,
+      "images": [
+        {
+          "url": "/catalog-man-hoodie.jpg",
+          "alt": "Men's Tracy Hoodie"
+        }
+      ],
+      "category": "4d8650f3-7a80-483a-a569-986492d0bff1",
+      "variants": [
+        {
+          "name": "size",
+          "options": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ]
+        }
+      ],
+      "stock": 50,
+      "rating": 4.7,
+      "createdAt": "2026-03-07T00:00:21.137Z",
+      "updatedAt": "2026-03-07T00:00:21.138Z"
+    },
+    {
+      "_id": "ceea61c6-40d1-4e0f-9bdd-d5188083c470",
+      "name": "Men's Tracy T-Shirt",
+      "description": "Comfortable everyday t-shirt with the Tracy branding. Made from 100% cotton.",
+      "price": 29.99,
+      "salePrice": null,
+      "isOnSale": false,
+      "images": [
+        {
+          "url": "/catalog-man-tshirt.jpg",
+          "alt": "Men's Tracy T-Shirt"
+        }
+      ],
+      "category": "4d8650f3-7a80-483a-a569-986492d0bff1",
+      "variants": [
+        {
+          "name": "size",
+          "options": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ],
+      "stock": 80,
+      "rating": 4.5,
+      "createdAt": "2026-03-07T00:00:21.138Z",
+      "updatedAt": "2026-03-07T00:00:21.138Z"
+    },
+    {
+      "_id": "28332e9c-f57d-4617-ac8a-ede8fc4f5157",
+      "name": "Women's Tracy Hoodie",
+      "description": "Stylish women's hoodie featuring the Tracy logo. Perfect for casual wear.",
+      "price": 59.99,
+      "salePrice": 49.99,
+      "isOnSale": true,
+      "images": [
+        {
+          "url": "/catalog-woman-hoodie.jpg",
+          "alt": "Women's Tracy Hoodie"
+        }
+      ],
+      "category": "4d8650f3-7a80-483a-a569-986492d0bff1",
+      "variants": [
+        {
+          "name": "size",
+          "options": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ],
+      "stock": 45,
+      "rating": 4.8,
+      "createdAt": "2026-03-07T00:00:21.138Z",
+      "updatedAt": "2026-03-07T00:00:21.138Z"
+    },
+    {
+      "_id": "734183aa-f4ad-4e28-9128-ccdf900787e9",
+      "name": "Women's Tracy T-Shirt",
+      "description": "Lightweight and stylish women's t-shirt with Tracy branding.",
+      "price": 29.99,
+      "salePrice": null,
+      "isOnSale": false,
+      "images": [
+        {
+          "url": "/catalog-woman-tshirt.jpg",
+          "alt": "Women's Tracy T-Shirt"
+        }
+      ],
+      "category": "4d8650f3-7a80-483a-a569-986492d0bff1",
+      "variants": [
+        {
+          "name": "size",
+          "options": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ]
+        }
+      ],
+      "stock": 70,
+      "rating": 4.6,
+      "createdAt": "2026-03-07T00:00:21.138Z",
+      "updatedAt": "2026-03-07T00:00:21.138Z"
+    },
+    {
+      "_id": "b54cdd1b-84e2-4885-a61a-454086d4a412",
+      "name": "Mobb Sticker Pack",
+      "description": "A collection of high-quality vinyl stickers featuring the Mobb design. Weatherproof and long-lasting.",
+      "price": 9.99,
+      "salePrice": 6.99,
+      "isOnSale": true,
+      "images": [
+        {
+          "url": "/catalog-sticker-mobb.jpg",
+          "alt": "Mobb Sticker Pack"
+        }
+      ],
+      "category": "5ca8a3c3-ee78-4f11-9711-0dd7c7da3421",
+      "variants": [],
+      "stock": 200,
+      "rating": 4.9,
+      "createdAt": "2026-03-07T00:00:21.138Z",
+      "updatedAt": "2026-03-07T00:00:21.138Z"
+    },
+    {
+      "_id": "17b198ae-18a2-43d0-ad81-cebc688d3fd4",
+      "name": "Mobb Tracy Sticker Pack",
+      "description": "Exclusive Mobb Tracy collaboration sticker set. Limited edition vinyl stickers.",
+      "price": 12.99,
+      "salePrice": null,
+      "isOnSale": false,
+      "images": [
+        {
+          "url": "/catalog-sticker-mobbtracy.jpg",
+          "alt": "Mobb Tracy Sticker Pack"
+        }
+      ],
+      "category": "5ca8a3c3-ee78-4f11-9711-0dd7c7da3421",
+      "variants": [],
+      "stock": 150,
+      "rating": 4.8,
+      "createdAt": "2026-03-07T00:00:21.138Z",
+      "updatedAt": "2026-03-07T00:00:21.138Z"
+    },
+    {
+      "_id": "71c2231f-9be9-4444-be45-07cd3ceee95d",
+      "name": "Time Machine Sticker",
+      "description": "The iconic Tracy Time Machine sticker. A must-have for any Tracy fan.",
+      "price": 4.99,
+      "salePrice": null,
+      "isOnSale": false,
+      "images": [
+        {
+          "url": "/catalog-sticker-timemachine.jpg",
+          "alt": "Time Machine Sticker"
+        }
+      ],
+      "category": "5ca8a3c3-ee78-4f11-9711-0dd7c7da3421",
+      "variants": [],
+      "stock": 300,
+      "rating": 5,
+      "createdAt": "2026-03-07T00:00:21.138Z",
+      "updatedAt": "2026-03-07T00:00:21.138Z"
+    },
+    {
+      "_id": "ade849dc-c0c8-4baa-91d8-717a6bcaf551",
+      "name": "Tracy Keycaps Set",
+      "description": "Custom Tracy-themed keycaps for mechanical keyboards. PBT material, OEM profile. Fits standard layouts.",
+      "price": 39.99,
+      "salePrice": 29.99,
+      "isOnSale": true,
+      "images": [
+        {
+          "url": "/catalog-tracy-keycaps.jpg",
+          "alt": "Tracy Keycaps Set"
+        }
+      ],
+      "category": "4f30da54-e1e6-48bf-9b36-105e58be9833",
+      "variants": [
+        {
+          "name": "layout",
+          "options": [
+            "ANSI",
+            "ISO"
+          ]
+        }
+      ],
+      "stock": 40,
+      "rating": 4.9,
+      "createdAt": "2026-03-07T00:00:21.138Z",
+      "updatedAt": "2026-03-07T00:00:21.138Z"
+    }
+  ],
+  "orders": [
+    {
+      "_id": "606ff365-e304-4b35-93d4-1329c42b59dc",
+      "orderNumber": "TRY-2026-498128",
+      "userId": "edf5eeb5-81c9-4c08-97c3-f080a30bc637",
+      "items": [
+        {
+          "productId": "ceea61c6-40d1-4e0f-9bdd-d5188083c470",
+          "quantity": 1,
+          "price": 29.99,
+          "variant": {
+            "size": "L"
+          }
+        },
+        {
+          "productId": "ceea61c6-40d1-4e0f-9bdd-d5188083c470",
+          "quantity": 1,
+          "price": 29.99,
+          "variant": {}
+        }
+      ],
+      "shippingAddress": {
+        "firstName": "Demo",
+        "lastName": "User",
+        "street": "212 Edgebrook Gdns NW",
+        "city": "Calgary",
+        "state": "AB",
+        "zip": "T3A 4Z9",
+        "country": "CA"
+      },
+      "subtotal": 59.98,
+      "tax": 7.7974,
+      "total": 67.7774,
+      "status": "pending",
+      "createdAt": "2026-03-09T22:52:43.629Z",
+      "updatedAt": "2026-03-09T22:52:43.629Z"
+    }
+  ]
+}

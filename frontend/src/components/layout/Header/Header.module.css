@@ -1,0 +1,163 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #131921;
+  color: #fff;
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 8px 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.logo span {
+  color: #f90;
+}
+
+.searchForm {
+  flex: 1;
+  position: relative;
+  display: flex;
+}
+
+.searchInput {
+  flex: 1;
+  padding: 8px 14px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.searchBtn {
+  padding: 8px 14px;
+  background: #f90;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.searchBtn:hover {
+  background: #e68a00;
+}
+
+.suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #fff;
+  color: #111;
+  list-style: none;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  z-index: 200;
+}
+
+.suggestions li {
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.suggestions li:hover {
+  background: #f3f3f3;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.accountMenu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.accountLink {
+  color: #fff;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.accountLink:hover {
+  color: #f90;
+}
+
+.logoutBtn {
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.logoutBtn:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.cartLink {
+  position: relative;
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.cartBadge {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  background: #f90;
+  color: #111;
+  border-radius: 50%;
+  font-size: 0.7rem;
+  font-weight: 700;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navBar {
+  background: #232f3e;
+  display: flex;
+  gap: 4px;
+  padding: 6px 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+.navBar a {
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 4px 10px;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+.navBar a:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.dealsLink {
+  color: #f90 !important;
+  font-weight: 600;
+}

@@ -1,0 +1,199 @@
+.page {
+  display: flex;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 32px auto;
+  padding: 0 20px;
+}
+
+.loading {
+  text-align: center;
+  padding: 80px;
+  color: #888;
+}
+
+.gallery {
+  flex: 0 0 420px;
+}
+
+.mainImage {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  background: #f9f9f9;
+}
+
+.thumbs {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.thumb {
+  width: 68px;
+  height: 68px;
+  object-fit: cover;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.activeThumb {
+  border-color: #f90;
+}
+
+.details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.name {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.rating {
+  color: #f90;
+  font-size: 1rem;
+}
+
+.ratingNum {
+  color: #007185;
+  font-size: 0.9rem;
+  margin-left: 6px;
+}
+
+.priceRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.price {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #B12704;
+}
+
+.original {
+  font-size: 1rem;
+  text-decoration: line-through;
+  color: #888;
+}
+
+.saveBadge {
+  background: #cc0c39;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 3px;
+}
+
+.description {
+  color: #444;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.variantGroup {
+  margin-top: 4px;
+}
+
+.variantLabel {
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.variantOptions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.variantBtn {
+  padding: 6px 14px;
+  border: 2px solid #ddd;
+  background: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: border-color 0.2s;
+}
+
+.variantBtn:hover {
+  border-color: #f90;
+}
+
+.activeVariant {
+  border-color: #f90;
+  background: #fff8e6;
+}
+
+.quantityRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+}
+
+.quantityRow select {
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.addBtn {
+  background: #f90;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.addBtn:hover {
+  background: #e68a00;
+}
+
+.addedBtn {
+  background: #28a745 !important;
+  color: #fff;
+}
+
+.buyBtn {
+  background: #ffd814;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.buyBtn:hover {
+  background: #f7ca00;
+}
+
+.stockWarn {
+  color: #cc0c39;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .page {
+    flex-direction: column;
+  }
+  .gallery {
+    flex: none;
+  }
+}
