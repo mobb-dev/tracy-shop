@@ -26,15 +26,11 @@ npm run seed
 
 ### 4. Run development servers
 
-**Backend** (port 5000):
 ```bash
-npm run dev:backend
+npm run dev
 ```
 
-**Frontend** (port 3000):
-```bash
-npm run dev:frontend
-```
+This starts both the backend (port 5080) and frontend (port 3000) concurrently.
 
 Open http://localhost:3000
 
